@@ -17,6 +17,7 @@
 			/* first content */
 			#dream-problem-solution { width: 100%; height: 356px; background: url(../img/GreenBanner.png); position: relative;  }
 			.content-center { margin-left: auto; margin-right: auto; width: 960px; }
+			.content-center p.white a { color:white; text-decoration: underline; }
 			#dream-problem-solution h2 { color: black; font-weight: 500; font-size: 35px; padding-top:20px; }
 			#dream-problem-solution p { font-size: 16px; padding-top:10px; color: white; }
 			
