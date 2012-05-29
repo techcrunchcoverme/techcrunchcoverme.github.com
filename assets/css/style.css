@@ -1,0 +1,65 @@
+			a:hover { text-decoration: underline; }
+			a, a:visited { color: #0A9600; font-weight: bold; outline: medium none; text-decoration: none; }
+			* { padding: 0; margin: 0; }
+			
+			/*header*/
+			header { width: 100%; height: 156px; }
+			header ul { margin: 0; margin-left: 290px; }
+			header ul li { list-style-type: none; float: left; margin-right: 20px; color: white; padding: 5px; font-size: 18px; font-weight: 500; }			
+			#bar-top { background:black; height:30px; width:100%; }
+			
+			#tc-logo { position: absolute; top:0; left:-80px;}
+			#tc-cover { left: 220px; position: absolute; top: 80px; }
+			#tc-slogan { position: absolute; top:120px; left: 0; color: #0A9600; font-weight: bold; font-size: 22px; margin: 0; padding: 0;}
+			#tc-close { position:absolute; right:40px; top:230px; }
+			#tc-close:hover{cursor: pointer; }
+				
+			/* first content */
+			#dream-problem-solution { width: 100%; height: 356px; background: url(../img/GreenBanner.png); position: relative;  }
+			.content-center { margin-left: auto; margin-right: auto; width: 960px; }
+			#dream-problem-solution h2 { color: black; font-weight: 500; font-size: 35px; padding-top:20px; }
+			#dream-problem-solution p { font-size: 16px; padding-top:10px; color: white; }
+			
+			
+			/* content */
+			.headline {
+   			 font-family: Interstate,Helvetica,Arial,sans-serif;
+    			font-size: 40px;
+    			font-style: normal;
+    			font-weight: bold;
+ 			   letter-spacing: -2px;
+  	 	 		line-height: 100%;
+  	 	 		margin-bottom: 20px; 
+			}
+		
+			#content-post { margin-top:20px; width: 630px; float:left; margin-bottom: 60px; }
+			#author-post { font-size: 14px; }
+			#social-sharing { height: 30px;  position: relative; margin-bottom: 20px; }
+			div.fb-like { position: absolute; top:0; left: 0; }
+			div.google-button { position: absolute; top:0; left: 95px; }
+			div.twitter-button { position: absolute; top:0; left: 170px; }
+			div.linkedin-button { position: absolute; top:0; left: 265px; }
+			
+			#date-post { font-weight: bold; color:black; font-size:12px; margin-bottom: 10px; }
+			#body-post p {   font-size: 14px; line-height: 140%; }
+			img.photo { float: left; margin-right: 20px; margin-bottom: 20px; }
+			
+			
+			/* sidebar right */
+			#sidebar-right { margin-left: 60px; width: 240px; height: 400px;  float: left; margin-top: 20px; }
+			#trending { background: #2D9400; color: white; font-size: 22px; font-weight: 600; height: 20px; padding: 7px 15px; width: 210px; margin-bottom: 20px;}
+			div.story { width: 240px; margin-bottom: 20px;   clear: both; height: 100px;  }
+			div.story img { float: left; margin-right: 10px; }
+			div.story p { padding-top: 5px; font-size: 16px;font-weight: bold; }
+			
+			
+			footer {
+				width: 100%; 
+				background: black;
+				height: 55px; 
+				clear: both; 
+				color: white;
+				font-weight: bold; 
+				padding-top: 25px; 
+				
+			}
