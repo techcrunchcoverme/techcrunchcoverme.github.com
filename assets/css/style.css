@@ -1,11 +1,15 @@
-			a:hover { text-decoration: underline; }
-			a, a:visited { color: #0A9600; font-weight: bold; outline: medium none; text-decoration: none; }
+			header ul li a { color: white;}
+			
+			a:hover { text-decoration: underline; color: white;}
+			a { color: #0A9600; font-weight: bold; outline: medium none; text-decoration: none; }
 			* { padding: 0; margin: 0; }
 			
 			/*header*/
 			header { width: 100%; height: 156px; }
 			header ul { margin: 0; margin-left: 290px; }
-			header ul li { list-style-type: none; float: left; margin-right: 20px; color: white; padding: 5px; font-size: 18px; font-weight: 500; }			
+			header ul li { list-style-type: none; float: left; margin-right: 20px; color: white; padding: 5px; font-size: 18px; font-weight: 500; }	
+			
+					
 			#bar-top { background:black; height:30px; width:100%; }
 			
 			#tc-logo { position: absolute; top:0; left:-80px;}
@@ -33,7 +37,12 @@
   	 	 		margin-bottom: 20px; 
 			}
 		
-			#content-post { margin-top:20px; width: 630px; float:left; margin-bottom: 60px; }
+			#content-about, #content-post { margin-top:20px; width: 630px; float:left; margin-bottom: 60px; }
+			#content-about div.question { margin-bottom: 50px; }
+			h1.green, span.email { color: #38C239; }
+			h3 { margin-bottom: 16px}
+			div.howdy-bagarino { margin-top:24px;}
+			div.howdy-bagarino > img { margin-bottom: 20px; }
 			#author-post { font-size: 14px; }
 			#social-sharing { height: 30px;  position: relative; margin-bottom: 20px; }
 			div.fb-like { position: absolute; top:0; left: 0; }
@@ -61,6 +70,5 @@
 				clear: both; 
 				color: white;
 				font-weight: bold; 
-				padding-top: 25px; 
-				
+				padding-top: 25px;				
 			}
