@@ -9,6 +9,7 @@
 			header ul { margin: 0; margin-left: 290px; }
 			header ul li { list-style-type: none; float: left; margin-right: 20px; color: white; padding: 5px; font-size: 18px; font-weight: 500; }	
 			
+			
 					
 			#bar-top { background:black; height:30px; width:100%; }
 			
@@ -39,6 +40,7 @@
 		
 			#content-about, #content-post { margin-top:20px; width: 630px; float:left; margin-bottom: 60px; }
 			#content-about div.question { margin-bottom: 50px; }
+			div.question a:hover { color: #0A9600; }
 			h1.green, span.email { color: #38C239; }
 			h3 { margin-bottom: 16px}
 			div.howdy-bagarino { margin-top:24px;}
